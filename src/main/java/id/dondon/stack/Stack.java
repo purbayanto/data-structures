@@ -2,20 +2,23 @@ package id.dondon.stack;
 
 public class Stack<T> {
 
-    private static int MAX_SIZE = 40;
+    private static final int MAX_SIZE = 40;
 
     private Element<T> top;
     private int size = 0;
 
+    private final int maxSize;
+
     public Stack() {
+        this.maxSize = MAX_SIZE;
     }
 
     public Stack(int maxSize) {
-        MAX_SIZE = maxSize;
+        this.maxSize = maxSize;
     }
 
     public void push(T data) throws StackOverflowException {
-        if (size == MAX_SIZE) {
+        if (size == this.maxSize) {
             throw new StackOverflowException();
         }
 
@@ -49,7 +52,7 @@ public class Stack<T> {
     }
 
     public boolean isFull() {
-        return size == MAX_SIZE;
+        return size == this.maxSize;
     }
 
     public int getSize() {
