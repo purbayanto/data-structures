@@ -51,4 +51,20 @@ public class MaxHeap<T extends Comparable> extends Heap<T> {
     }
   }
 
+  public T getMinimum() {
+    int lastIndex = getCount() - 1;
+    int lastParentIndex = getParentIndex(lastIndex);
+
+    int firstChildIndex = lastParentIndex + 1;
+
+    T minElement = getElementAtIndex(firstChildIndex);
+    for (int i = firstChildIndex; i <= lastIndex; i++) {
+      if (minElement.compareTo(getElementAtIndex(i)) > 0) {
+        minElement = getElementAtIndex(i);
+      }
+    }
+
+    return minElement;
+  }
+
 }

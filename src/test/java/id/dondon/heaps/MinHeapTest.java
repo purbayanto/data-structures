@@ -48,4 +48,16 @@ public class MinHeapTest {
     Assert.assertEquals(6, highestPriority2);
   }
 
+  @Test
+  public void getMaximum() throws HeapFullException {
+    MinHeap<Integer> minHeap = new MinHeap<Integer>(Integer.class);
+    minHeap.insert(9);
+    minHeap.insert(4);
+    minHeap.insert(17);
+    minHeap.insert(6);
+
+    int highestPriority1 = minHeap.getMaximum();
+    Assert.assertEquals(17, highestPriority1);
+  }
+
 }
