@@ -41,4 +41,15 @@ public class Work5Test {
     assertEquals(expected, result);
   }
 
+  @Test
+  public void optimalSpace() {
+    int[] a = {13, 27, 35, 40, 49, 55, 59};
+    int[] b = {17, 35, 39, 40, 55, 58, 60};
+
+    List<Integer> result = Work5.optimalSpace(a, b);
+    List<Integer> expected = Arrays.asList(35, 40, 55);
+
+    assertEquals(expected, result);
+  }
+
 }

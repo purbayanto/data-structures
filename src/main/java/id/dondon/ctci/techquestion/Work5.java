@@ -101,13 +101,15 @@ public class Work5 {
   public static List<Integer> optimalSpace(int[] a, int[] b) {
     List<Integer> result = new ArrayList<Integer>();
 
+    int lastIndex = 0;
     for (int i = 0; i < a.length; i++) {
-      for (int j = 0; j < b.length; j++) {
+      for (int j = lastIndex; j < b.length; j++) {
         if (b[j] > a[i]) {
           break;
         }
 
         if (a[i] == b[j]) {
+          lastIndex = j;
           result.add(a[i]);
           break;
         }
