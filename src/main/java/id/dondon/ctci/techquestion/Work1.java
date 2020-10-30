@@ -4,11 +4,17 @@ import com.sun.tools.javac.util.Pair;
 import id.dondon.search.BinarySearch;
 import id.dondon.sort.MergeSort;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Given an array of distinct integer values,
+ * count the number of pairs of integers that have difference k.
+ * For example, given the array {1, 7, 5, 9, 2, 12, 3}
+ * and the difference k = 2,
+ * there are four pairs with difference 2: (1, 3), (3, 5), (5, 7), (7, 9) .
+ * */
 public class Work1 {
 
   public static List<Pair<Integer, Integer>> solution1(int[] unsortedArr, int range) {
