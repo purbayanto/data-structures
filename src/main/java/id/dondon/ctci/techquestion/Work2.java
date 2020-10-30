@@ -13,7 +13,7 @@ import java.util.Map;
 public class Work2 {
 
   /**
-   * This will take O(N⁴)
+   * This will take O(N⁴) time
    * */
   public static List<String> solution1(int n) {
     List<String> result = new ArrayList<String>();
@@ -65,7 +65,7 @@ public class Work2 {
   /**
    * If there's onl one valid d value for each (a, b, c)
    * then we can just compute it.This is just simple math: d=∛a³+b³-C³
-   * This will take O(N³)
+   * This will take O(N³) time
    * */
   public static List<String> solution3(int n) {
     List<String> result = new ArrayList<String>();
@@ -89,7 +89,7 @@ public class Work2 {
   }
 
   /**
-   * This will take O(N⁴)
+   * This will take O(N⁴) time
    * */
   public static List<String> solution4(int n) {
     Map<String, String> maps = new HashMap<String, String>();
