@@ -91,4 +91,30 @@ public class Work5 {
     return result;
   }
 
+  /**
+   * Brute Force: O(N²) with optimal search
+   *
+   * Brute Force: O(N²)
+   * Optimal Algorithm : O(N²)
+   * BCR : O(N)
+   * */
+  public static List<Integer> optimalSpace(int[] a, int[] b) {
+    List<Integer> result = new ArrayList<Integer>();
+
+    for (int i = 0; i < a.length; i++) {
+      for (int j = 0; j < b.length; j++) {
+        if (b[j] > a[i]) {
+          break;
+        }
+
+        if (a[i] == b[j]) {
+          result.add(a[i]);
+          break;
+        }
+      }
+    }
+
+    return result;
+  }
+
 }
