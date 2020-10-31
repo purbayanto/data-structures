@@ -2,6 +2,10 @@ package id.dondon.ctci.chapter1;
 
 import java.util.Arrays;
 
+/**
+ * Check Permutation:
+ * Given two strings, write a method to decide if one is a permutation of the other.
+ * */
 public class InterviewQuestion2 {
 
   public static boolean solution1(String s, String t) {
