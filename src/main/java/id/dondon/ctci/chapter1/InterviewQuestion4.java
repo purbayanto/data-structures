@@ -52,6 +52,46 @@ public class InterviewQuestion4 {
     return countOdd < 2;
   }
 
+  /**
+   * This algorithm takes O(N) time
+   * where N is the length of the string.
+   * */
+  public static boolean solution3(String input) {
+    if (input == null) {
+      return false;
+    }
+
+    int bitVector = createBitVector(input);
+    return bitVector == 0 || checkExactlyOneBitSet(bitVector);
+  }
+
+  private static boolean checkExactlyOneBitSet(int bitVector) {
+    return (bitVector & (bitVector - 1)) == 0;
+  }
+
+  private static int createBitVector(String input) {
+    int bitVector = 0;
+    for (char c: input.toCharArray()) {
+      int x = getCharNumber(c);
+      bitVector = toggle(bitVector, x);
+    }
+
+    return bitVector;
+  }
+
+  private static int toggle(int bitVector, int index) {
+    if (index < 0) return bitVector;
+
+    int mask = 1 << index;
+    if ((bitVector & mask) == 0) {
+      bitVector |= mask;
+    } else {
+      bitVector &= ~mask;
+    }
+
+    return bitVector;
+  }
+
   private static boolean checkMaxOneOdd(int[] table) {
     boolean foundOdd = false;
     for (int count: table) {
