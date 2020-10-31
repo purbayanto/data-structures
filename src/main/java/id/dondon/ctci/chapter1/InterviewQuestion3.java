@@ -11,6 +11,12 @@ import java.util.List;
  * */
 public class InterviewQuestion3 {
 
+  /**
+   * FIXME
+   * index out of bounds if last spaces under or equals 3
+   * "Mr John Smith    " this will fine
+   * "Mr John Smith   " this will error
+   * */
   public static String solution1(String input, int trueLength) {
     char[] chars = input.toCharArray();
     int spaceCount = 0;
