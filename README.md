@@ -59,7 +59,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [String Compression](./src/main/java/id/dondon/ctci/chapter1/InterviewQuestion6.java) <br />
 - [Rotate Matrix](./src/main/java/id/dondon/ctci/chapter1/InterviewQuestion7.java) <br />
 - [Zero Matrix](./src/main/java/id/dondon/ctci/chapter1/InterviewQuestion8.java) <br />
-- [String Rotation](./src/main/java/id/dondon/ctci/chapter1/InterviewQuestion1.java) <br />
+- [String Rotation](./src/main/java/id/dondon/ctci/chapter1/InterviewQuestion9.java) <br />
 
 ### LinkedList
 
