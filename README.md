@@ -66,11 +66,11 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Remove Duplicates](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion1.java) <br />
 - [Return Kth To Last](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion2.java) <br />
 - [Delete Middle Node](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion3.java) <br />
+- [Partition](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion4.java) <br />
 - [Intersection](./src/chapter02LinkedList/Intersection.java) <br />
 - [ListNode](./src/chapter02LinkedList/ListNode.java) <br />
 - [Loop Detection](./src/chapter02LinkedList/LoopDetection.java) <br />
 - [Palindrome](./src/chapter02LinkedList/Palindrome.java) <br />
-- [Partition](./src/chapter02LinkedList/Partition.java) <br />
 - [Sum Lists](./src/chapter02LinkedList/SumLists.java) <br />
 
 ### Stacks and Queues
