@@ -10,6 +10,10 @@ public class LinkedList<T extends Comparable<T>> implements Cloneable {
   public LinkedList() {
   }
 
+  public Node<T> getHead() {
+    return head;
+  }
+
   /**
    * Append a new node to the end of the linked list.
    */
