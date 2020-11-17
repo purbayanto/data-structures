@@ -70,8 +70,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Sum Lists](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion5.java) <br />
 - [Palindrome](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion6.java) <br />
 - [Intersection](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion7.java) <br />
-- [ListNode](./src/chapter02LinkedList/ListNode.java) <br />
-- [Loop Detection](./src/chapter02LinkedList/LoopDetection.java) <br />
+- [Loop Detection](./src/main/java/id/dondon/ctci/chapter2/InterviewQuestion8.java) <br />
 
 ### Stacks and Queues
 
