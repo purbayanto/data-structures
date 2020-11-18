@@ -76,6 +76,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 
 - Three Stacks in One Array <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Fixed Multi Stack](./src/main/java/id/dondon/ctci/chapter3/FixedMultiStack.java) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Dynamic Multi Stack](./src/main/java/id/dondon/ctci/chapter3/DynamicMultiStack.java) <br />
 - [Animal Shelter](./src/chapter03StacksAndQueues/AnimalShelter.java) <br />
 - [Implement Queue Using Stacks](./src/chapter03StacksAndQueues/ImplementQueueUsingStacks.java) <br />
 - [Min Stack](./src/chapter03StacksAndQueues/MinStack.java) <br />
