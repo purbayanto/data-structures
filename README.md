@@ -83,7 +83,7 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Min Stack 2](./src/main/java/id/dondon/ctci/chapter3/StackWithMin2.java) <br />
 - [Stack of Plates](./src/main/java/id/dondon/ctci/chapter3/SetOfStacks.java) <br />
 - [Implement Queue Using Stacks](./src/main/java/id/dondon/ctci/chapter3/QueueStack.java) <br />
-- [Sort Stack](./src/chapter03StacksAndQueues/SortStack.java) <br />
+- [Sort Stack](./src/main/java/id/dondon/ctci/chapter3/SortStack.java) <br />
 
 ### Trees and Graphs
 
