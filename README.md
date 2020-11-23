@@ -77,13 +77,13 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - Three Stacks in One Array <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Fixed Multi Stack](./src/main/java/id/dondon/ctci/chapter3/FixedMultiStack.java) <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Dynamic Multi Stack](./src/main/java/id/dondon/ctci/chapter3/DynamicMultiStack.java) <br />
-- [Animal Shelter](./src/chapter03StacksAndQueues/AnimalShelter.java) <br />
 - Min Stack <br /> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Min Stack 1](./src/main/java/id/dondon/ctci/chapter3/StackWithMin.java) <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Min Stack 2](./src/main/java/id/dondon/ctci/chapter3/StackWithMin2.java) <br />
 - [Stack of Plates](./src/main/java/id/dondon/ctci/chapter3/SetOfStacks.java) <br />
 - [Implement Queue Using Stacks](./src/main/java/id/dondon/ctci/chapter3/QueueStack.java) <br />
 - [Sort Stack](./src/main/java/id/dondon/ctci/chapter3/SortStack.java) <br />
+- [Animal Shelter](./src/main/java/id/dondon/ctci/chapter3/AnimalShelter.java) <br />
 
 ### Trees and Graphs
 
