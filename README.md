@@ -94,10 +94,11 @@ Java solutions to problems in the book Cracking the Coding Interview(6th Edition
 - [Validate BST](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion5.java) <br />
 - [Successor](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion6.java) <br />
 - [Build Order](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion7.java) <br />
-- [First Common Ancestor](./src/chapter04TreesAndGraphs/FirstCommonAncestor.java) <br />
-- [Paths with Sum](./src/chapter04TreesAndGraphs/PathsWithSum.java) <br />
-- [Random Node](./src/chapter04TreesAndGraphs/RandomNode.java) <br />
-- [Tree Node](./src/chapter04TreesAndGraphs/TreeNode.java) <br />
+- [First Common Ancestor](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion8.java) <br />
+- [BST Sequences](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion9.java) <br />
+- [Check Subtree](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion10.java) <br />
+- [Random Node](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion11.java) <br />
+- [Paths with Sum](./src/main/java/id/dondon/ctci/chapter4/InterviewQuestion12.java) <br />
 
 ### Bit Manipulation
 
